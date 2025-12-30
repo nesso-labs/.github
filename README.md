@@ -15,7 +15,7 @@ Benvenuto/a nell’organizzazione **nesso-labs**: qui trovi i repository, gli es
 ## Cosa trovi in questa org
 
 ### 🧪 Nesso Labs
-Il nostro “officina”: prototipi, componenti riutilizzabili, template, strumenti interni e PoC.
+La nostro “officina”: prototipi, componenti riutilizzabili, template, strumenti interni e PoC.
 - boilerplate (API, infra, CI/CD)
 - librerie e tool
 - esempi di architetture “pragmatiche ma scalabili”
