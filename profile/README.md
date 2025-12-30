@@ -5,7 +5,7 @@ Benvenuto/a nell’organizzazione **nesso-labs**: qui trovi i repository, gli es
 
 ---
 
-##Cosa ci distingue**
+## Cosa ci distingue
 - **Referente tecnico italiano** come unico punto di contatto.
 - **Team globale remoto** (quality + costo) con processi e standard chiari.
 - **Codice tuo** (no lock-in), contratti semplici, trasparenza sui budget (range, non listini fissi).
