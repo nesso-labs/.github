@@ -1,0 +1,55 @@
+name: Bug Report
+description: Report a bug or unexpected behaviour
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting a bug. Please fill in the details below so we can investigate.
+  - type: input
+    id: summary
+    attributes:
+      label: Summary
+      description: One-line description of the problem
+      placeholder: "e.g. API returns 500 when payload is empty"
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Minimal sequence of steps to trigger the bug
+      placeholder: |
+        1. Send POST /api/resource with body `{}`
+        2. Observe response
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behaviour
+      description: What should happen
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behaviour
+      description: What happens instead (include error messages, status codes, logs)
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      description: "Runtime details (OS, Python/Node version, Docker image tag, etc.)"
+      placeholder: "e.g. Python 3.12, Docker ghcr.io/nesso-labs/backend:0.4.1"
+    validations:
+      required: false
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Screenshots, logs, related issues, or anything else that helps
+    validations:
+      required: false
